@@ -106,11 +106,11 @@ while running:
 
         if turn == 6:
             game_over = True
-            loser_text = huge_font.render('Молодець!', True, white)
+            loser_text = huge_font.render('НЕВДАЧА!', True, white)
             screen.blit(loser_text, (40, 610))
 
         if game_over and turn < 6:
-            winner_text = huge_font.render('НЕВДАЧА!', True, white)
+            winner_text = huge_font.render('Молодець!', True, white)
             screen.blit(winner_text, (40, 610))
 
 
