@@ -91,7 +91,6 @@ while running:
                          [" ", " ", " ", " ", " "],
                          [" ", " ", " ", " ", " "]]
 
-
         if letters == 5:
             turn_active = False
         if letters < 5:
